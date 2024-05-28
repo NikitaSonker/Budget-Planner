@@ -10,8 +10,8 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { TodoComponent } from './todo/todo.component';
 
 const routes: Routes = [
-  { path: 'login', component: LoginComponent },
-  { path: 'side-nav', component: SideNavComponent },
+  {path: 'login', component: LoginComponent },
+  {path: 'side-nav', component: SideNavComponent },
   {path: 'dashboard', component: DashboardComponent},
   {path: 'income',component: IncomeComponent},
   {path: 'expense',component:ExpenseComponent},
